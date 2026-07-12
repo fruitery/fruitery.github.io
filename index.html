@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fruitery — fresh fruit shakes, platters, cups and more, made with love.">
+  <meta name="theme-color" content="#fffaf0">
+  <title>Fruitery | Fresh fruit, made happy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="#main-content" aria-label="Fruitery home">
+      <img class="brand-logo" src="image.png" alt="" width="132" height="132">
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a class="nav-order" href="#contact">Order now</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fresh • Colorful • Made with love</p>
+        <h1>Happiness,<br><span>served fresh.</span></h1>
+        <p class="hero-text">Bright fruit shakes, beautiful platters and feel-good treats made fresh for every occasion.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#menu">Explore the menu</a>
+          <a class="button secondary" href="#contact">Place an order</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <span class="fruit fruit-one">🍓</span>
+        <span class="fruit fruit-two">🥝</span>
+        <span class="fruit fruit-three">🍊</span>
+        <div class="shake">
+          <div class="straw"></div>
+          <div class="shake-cup"><span>fruitery</span></div>
+        </div>
+        <span class="sparkle sparkle-one">✦</span>
+        <span class="sparkle sparkle-two">✦</span>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow">Pick your favorite</p><h2>Our fresh menu</h2></div>
+        <p>Everything is prepared fresh. Ask us about seasonal fruit and custom orders.</p>
+      </div>
+
+      <div class="tabs" aria-label="Filter menu by category">
+        <button class="tab active" data-category="all" type="button" aria-pressed="true">All</button>
+        <button class="tab" data-category="smoothies" type="button" aria-pressed="false">Smoothies</button>
+      </div>
+
+      <!-- To add an item later, duplicate a menu-card and edit its name and description. -->
+      <div class="menu-grid" aria-live="polite">
+        <article class="menu-card berry" data-category="smoothies">
+          <div class="menu-icon" aria-hidden="true">🍓</div>
+          <div class="menu-info"><div class="item-title"><h3>Berry Dream Smoothie</h3></div><p>A refreshing blend of <strong>strawberries and blueberries</strong> with your choice of <strong>milk or lactose-free milk</strong>. Customize your sweetness with <strong>natural honey or zero-sugar sweetener</strong>.</p></div>
+        </article>
+        <article class="menu-card mango" data-category="smoothies">
+          <div class="menu-icon" aria-hidden="true">🥭</div>
+          <div class="menu-info"><div class="item-title"><h3>Mango Paradise Smoothie</h3></div><p>A tropical blend of <strong>fresh mango</strong> with your choice of <strong>milk or lactose-free milk</strong>. Customize your sweetness with <strong>natural honey or zero-sugar sweetener</strong>.</p></div>
+        </article>
+        <article class="menu-card royal" data-category="smoothies">
+          <div class="menu-icon" aria-hidden="true">👑</div>
+          <div class="menu-info"><div class="item-title"><h3>Royal Energy Smoothie</h3></div><p>A rich and creamy blend of <strong>banana, dates, and walnuts</strong> combined with <strong>milk and a touch of honey</strong> for a naturally sweet and energizing smoothie. A delicious choice for a nourishing boost with a royal flavor.</p></div>
+        </article>
+        <article class="menu-card watermelon" data-category="smoothies">
+          <div class="menu-icon" aria-hidden="true">🍉</div>
+          <div class="menu-info"><div class="item-title"><h3>Watermelon Breeze Smoothie</h3></div><p>A refreshing blend of <strong>fresh watermelon</strong> with the option of <strong>classic sweetness with sugar or a zero-sugar option</strong>. Light, hydrating, and perfect for a fresh summer treat.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-art" aria-hidden="true"><span>🍊</span><span>🍓</span><span>🥭</span><span>🥝</span></div>
+      <div class="about-copy"><p class="eyebrow">Fresh experiences for every occasion</p><h2>Colorful.<br>Elegant. Fresh.</h2><p><strong>Fruitery</strong> brings fresh, colorful, and elegant fruit experiences to your special occasions. We specialize in <strong>custom smoothie bars, beautifully crafted fruit platters, and fresh fruit bowls</strong> for weddings, events, corporate gatherings, and celebrations. Using high-quality seasonal fruits and creative presentations, we create refreshing and memorable options that add a vibrant touch to every event.</p><a href="#contact">Let’s make something delicious <span>→</span></a></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">Ready for something fresh?</p>
+      <h2>Let’s make your day<br>a little fruitier.</h2>
+      <p>Send us a message to order or ask about custom platters.</p>
+      <!-- Replace the link below with your WhatsApp number: https://wa.me/15551234567 -->
+      <a class="button dark" href="mailto:hello@fruitery.example">Order by message</a>
+      <div class="socials"><a href="mailto:hello@fruitery.example">Email</a><a href="#">Instagram</a><a href="#">TikTok</a></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#main-content" aria-label="Fruitery, back to top"><img class="brand-logo" src="image.png" alt="" width="132" height="132"></a><p>Freshly made with love.</p><p>© <span id="year"></span> Fruitery</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
