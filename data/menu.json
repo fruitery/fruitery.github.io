@@ -36,6 +36,24 @@
     "available": true
   },
   {
+    "title": "Berry Dream Smoothie",
+    "category": "Smoothies",
+    "emoji": "🍓",
+    "theme": "strawberry",
+    "ingredients": "Strawberries • Blueberries • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
+    "description": "A refreshing blend of strawberries and blueberries with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
+    "available": true
+  },
+  {
+    "title": "Mango Paradise Smoothie",
+    "category": "Smoothies",
+    "emoji": "🥭",
+    "theme": "mango",
+    "ingredients": "Fresh mango • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
+    "description": "A tropical blend of fresh mango with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
+    "available": true
+  },
+  {
     "title": "Berry Watermelon Bliss",
     "category": "Fruit Cups & Platters",
     "emoji": "🍉",
