@@ -36,12 +36,30 @@
     "available": true
   },
   {
-    "title": "Custom Fruit Cups & Platters",
+    "title": "Berry Watermelon Bliss",
+    "category": "Fruit Cups & Platters",
+    "emoji": "🍉",
+    "theme": "watermelon",
+    "ingredients": "Blueberry • Strawberry • Watermelon",
+    "description": "A refreshing blend of juicy watermelon, sweet strawberries, and vibrant blueberries.",
+    "available": true
+  },
+  {
+    "title": "Tropical Melon Delight",
+    "category": "Fruit Cups & Platters",
+    "emoji": "🍍",
+    "theme": "pineapple",
+    "ingredients": "Pineapple • Cantaloupe • Raspberry",
+    "description": "A bright and refreshing combination of tropical pineapple, sweet cantaloupe, and a touch of raspberry.",
+    "available": true
+  },
+  {
+    "title": "Royal Grape Medley",
     "category": "Fruit Cups & Platters",
     "emoji": "🍇",
     "theme": "platter",
-    "ingredients": "High-quality seasonal fruit",
-    "description": "Beautifully arranged for weddings, corporate gatherings, celebrations, and special events. Contact us to customize your order.",
+    "ingredients": "Green grapes • Red grapes • Blackberry",
+    "description": "A beautiful mix of crisp grapes and juicy blackberries for a naturally sweet and elegant fruit experience.",
     "available": true
   },
   {
