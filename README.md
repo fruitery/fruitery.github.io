@@ -4,7 +4,17 @@ A responsive static menu website for Fruitery, ready for GitHub Pages.
 
 ## Personalize it
 
-Open `index.html` and replace the sample menu items, prices, email address, WhatsApp link, and social links with the real details.
+The menu is stored in `data/menu.json` and rendered automatically by `script.js`.
+
+## Menu manager
+
+1. Visit <https://fruitery.github.io/admin/>.
+2. Select **Open Menu Manager** and sign in to Pages CMS with the `fruitery` GitHub account.
+3. Choose the `fruitery/fruitery.github.io` repository and **Menu Items**.
+4. Add or edit the title, category, emoji, ingredients, description, product photo, and availability.
+5. Save. Pages CMS commits the menu and uploaded image to GitHub, and GitHub Pages publishes the update automatically.
+
+Product images are stored in `images/menu/`. Turning off **Available** hides an item without deleting it.
 
 ## Preview locally
 

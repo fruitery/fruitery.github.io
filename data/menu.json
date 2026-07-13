@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Royal Energy Smoothie",
+    "category": "Smoothies",
+    "emoji": "👑",
+    "theme": "royal",
+    "ingredients": "Banana • Dates • Walnuts • Milk • Honey",
+    "description": "A rich and creamy blend of banana, dates, and walnuts combined with milk and a touch of honey for a naturally sweet and energizing smoothie. A delicious choice for a nourishing boost with a royal flavor.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Watermelon Breeze Smoothie",
+    "category": "Smoothies",
+    "emoji": "🍉",
+    "theme": "watermelon",
+    "ingredients": "Fresh watermelon • Sugar or zero-sugar option",
+    "description": "A refreshing blend of fresh watermelon with the option of classic sweetness with sugar or a zero-sugar option. Light, hydrating, and perfect for a fresh summer treat.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Carrot Float",
+    "category": "Smoothies",
+    "emoji": "🥕",
+    "theme": "carrot",
+    "ingredients": "Fresh carrot juice • Creamy ice cream",
+    "description": "A refreshing combination featuring fresh carrot juice served with a scoop of creamy ice cream. Enjoy the perfect balance of natural carrot flavor and a rich, sweet creamy finish.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Green Glow Smoothie",
+    "category": "Smoothies",
+    "emoji": "🥝",
+    "theme": "green",
+    "ingredients": "Kiwi • Green apple • Cucumber • Spinach • Coconut water",
+    "description": "A refreshing blend of kiwi, green apple, cucumber, and spinach with coconut water for a fresh and energizing taste. Light, vibrant, and packed with natural goodness.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Custom Fruit Cups & Platters",
+    "category": "Fruit Cups & Platters",
+    "emoji": "🍇",
+    "theme": "platter",
+    "ingredients": "High-quality seasonal fruit",
+    "description": "Beautifully arranged for weddings, corporate gatherings, celebrations, and special events. Contact us to customize your order.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Mango Protein Fruit Ice Cream",
+    "category": "Protein Fruit Ice Cream",
+    "emoji": "🥭",
+    "theme": "mango",
+    "ingredients": "Frozen mango • Milk • Protein powder",
+    "description": "A creamy and refreshing mango treat made with real fruit, milk, and protein for a delicious healthier dessert option.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Strawberry Protein Fruit Ice Cream",
+    "category": "Protein Fruit Ice Cream",
+    "emoji": "🍓",
+    "theme": "strawberry",
+    "ingredients": "Frozen strawberry • Milk • Protein powder",
+    "description": "A smooth strawberry fruit ice cream blended with real strawberries, milk, and protein for a naturally sweet and creamy taste.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Blueberry Protein Fruit Ice Cream",
+    "category": "Protein Fruit Ice Cream",
+    "emoji": "🫐",
+    "theme": "blueberry",
+    "ingredients": "Frozen blueberry • Milk • Protein powder",
+    "description": "A rich and creamy blueberry fruit ice cream made with real blueberries, milk, and protein for a satisfying treat.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Banana Protein Fruit Ice Cream",
+    "category": "Protein Fruit Ice Cream",
+    "emoji": "🍌",
+    "theme": "banana",
+    "ingredients": "Frozen banana • Milk • Protein powder",
+    "description": "A naturally creamy banana ice cream blended with fresh flavor and protein for a nourishing sweet treat.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  },
+  {
+    "title": "Pineapple Protein Fruit Ice Cream",
+    "category": "Protein Fruit Ice Cream",
+    "emoji": "🍍",
+    "theme": "pineapple",
+    "ingredients": "Frozen pineapple • Milk • Protein powder",
+    "description": "A tropical-inspired fruit ice cream made with pineapple, milk, and protein for a refreshing and healthier dessert.",
+    "image": "",
+    "imageAlt": "",
+    "available": true
+  }
+]

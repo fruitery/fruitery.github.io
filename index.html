@@ -55,55 +55,9 @@
         <p>Everything is prepared fresh. Ask us about seasonal fruit and custom orders.</p>
       </div>
 
-      <div class="tabs" aria-label="Filter menu by category">
-        <button class="tab active" data-category="all" type="button" aria-pressed="true">All</button>
-        <button class="tab" data-category="smoothies" type="button" aria-pressed="false">Smoothies</button>
-        <button class="tab" data-category="fruit-cups-platters" type="button" aria-pressed="false">Fruit Cups &amp; Platters</button>
-        <button class="tab" data-category="protein-fruit-ice-cream" type="button" aria-pressed="false">Protein Fruit Ice Cream</button>
-      </div>
-
-      <!-- To add an item later, duplicate a menu-card and edit its name and description. -->
-      <div class="menu-grid" aria-live="polite">
-        <article class="menu-card royal" data-category="smoothies">
-          <div class="menu-icon" aria-hidden="true">👑</div>
-          <div class="menu-info"><div class="item-title"><h3>Royal Energy Smoothie</h3></div><p>A rich and creamy blend of <strong>banana, dates, and walnuts</strong> combined with <strong>milk and a touch of honey</strong> for a naturally sweet and energizing smoothie. A delicious choice for a nourishing boost with a royal flavor.</p></div>
-        </article>
-        <article class="menu-card watermelon" data-category="smoothies">
-          <div class="menu-icon" aria-hidden="true">🍉</div>
-          <div class="menu-info"><div class="item-title"><h3>Watermelon Breeze Smoothie</h3></div><p>A refreshing blend of <strong>fresh watermelon</strong> with the option of <strong>classic sweetness with sugar or a zero-sugar option</strong>. Light, hydrating, and perfect for a fresh summer treat.</p></div>
-        </article>
-        <article class="menu-card carrot" data-category="smoothies">
-          <div class="menu-icon" aria-hidden="true">🥕</div>
-          <div class="menu-info"><div class="item-title"><h3>Carrot Float</h3></div><p>A refreshing combination featuring <strong>fresh carrot juice served with a scoop of creamy ice cream</strong>. Enjoy the perfect balance of natural carrot flavor and a rich, sweet creamy finish.</p></div>
-        </article>
-        <article class="menu-card green" data-category="smoothies">
-          <div class="menu-icon" aria-hidden="true">🥝</div>
-          <div class="menu-info"><div class="item-title"><h3>Green Glow Smoothie</h3></div><p>A refreshing blend of <strong>kiwi, green apple, cucumber, and spinach</strong> with <strong>coconut water</strong> for a fresh and energizing taste. Light, vibrant, and packed with natural goodness.</p></div>
-        </article>
-        <article class="menu-card platter" data-category="fruit-cups-platters">
-          <div class="menu-icon" aria-hidden="true">🍇</div>
-          <div class="menu-info"><div class="item-title"><h3>Custom Fruit Cups &amp; Platters</h3></div><p>Beautifully arranged with <strong>high-quality seasonal fruit</strong> for weddings, corporate gatherings, celebrations, and special events. Contact us to customize your order.</p></div>
-        </article>
-        <article class="menu-card mango" data-category="protein-fruit-ice-cream">
-          <div class="menu-icon" aria-hidden="true">🥭</div>
-          <div class="menu-info"><div class="item-title"><h3>Mango Protein Fruit Ice Cream</h3></div><p class="ingredients"><strong>Ingredients:</strong> Frozen mango • Milk • Protein powder</p><p>A creamy and refreshing mango treat made with real fruit, milk, and protein for a delicious healthier dessert option.</p></div>
-        </article>
-        <article class="menu-card strawberry" data-category="protein-fruit-ice-cream">
-          <div class="menu-icon" aria-hidden="true">🍓</div>
-          <div class="menu-info"><div class="item-title"><h3>Strawberry Protein Fruit Ice Cream</h3></div><p class="ingredients"><strong>Ingredients:</strong> Frozen strawberry • Milk • Protein powder</p><p>A smooth strawberry fruit ice cream blended with real strawberries, milk, and protein for a naturally sweet and creamy taste.</p></div>
-        </article>
-        <article class="menu-card blueberry" data-category="protein-fruit-ice-cream">
-          <div class="menu-icon" aria-hidden="true">🫐</div>
-          <div class="menu-info"><div class="item-title"><h3>Blueberry Protein Fruit Ice Cream</h3></div><p class="ingredients"><strong>Ingredients:</strong> Frozen blueberry • Milk • Protein powder</p><p>A rich and creamy blueberry fruit ice cream made with real blueberries, milk, and protein for a satisfying treat.</p></div>
-        </article>
-        <article class="menu-card banana" data-category="protein-fruit-ice-cream">
-          <div class="menu-icon" aria-hidden="true">🍌</div>
-          <div class="menu-info"><div class="item-title"><h3>Banana Protein Fruit Ice Cream</h3></div><p class="ingredients"><strong>Ingredients:</strong> Frozen banana • Milk • Protein powder</p><p>A naturally creamy banana ice cream blended with fresh flavor and protein for a nourishing sweet treat.</p></div>
-        </article>
-        <article class="menu-card pineapple" data-category="protein-fruit-ice-cream">
-          <div class="menu-icon" aria-hidden="true">🍍</div>
-          <div class="menu-info"><div class="item-title"><h3>Pineapple Protein Fruit Ice Cream</h3></div><p class="ingredients"><strong>Ingredients:</strong> Frozen pineapple • Milk • Protein powder</p><p>A tropical-inspired fruit ice cream made with pineapple, milk, and protein for a refreshing and healthier dessert.</p></div>
-        </article>
+      <div class="tabs" aria-label="Filter menu by category"></div>
+      <div class="menu-grid" aria-live="polite" aria-busy="true">
+        <p class="menu-status">Loading our fresh menu…</p>
       </div>
     </section>
 

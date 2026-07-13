@@ -1,0 +1,62 @@
+media:
+  input: images/menu
+  output: /images/menu
+  rename: safe
+  extensions: [jpg, jpeg, png, webp]
+
+content:
+  - name: menu
+    label: Menu Items
+    type: file
+    path: data/menu.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Item title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: [Smoothies, Fruit Cups & Platters, Protein Fruit Ice Cream]
+      - name: emoji
+        label: Emoji fallback
+        type: string
+        description: Shown when no photo is uploaded.
+      - name: theme
+        label: Card color
+        type: select
+        options:
+          values: [mango, strawberry, blueberry, banana, pineapple, watermelon, green, carrot, royal, platter]
+      - name: ingredients
+        label: Ingredients
+        type: text
+      - name: description
+        label: Description
+        type: text
+        required: true
+      - name: image
+        label: Product photo
+        type: image
+        options:
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: imageAlt
+        label: Photo description
+        type: string
+        description: Briefly describe the photo for customers using screen readers.
+      - name: available
+        label: Available
+        type: boolean
+        default: true
+
+settings:
+  hide: true
+  commit:
+    templates:
+      create: "menu: add {title}"
+      update: "menu: update items"
+      delete: "menu: remove item"
