@@ -1,5 +1,23 @@
 [
   {
+    "title": "Berry Dream Smoothie",
+    "category": "Smoothies",
+    "emoji": "🍓",
+    "theme": "strawberry",
+    "ingredients": "Strawberries • Blueberries • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
+    "description": "A refreshing blend of strawberries and blueberries with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
+    "available": true
+  },
+  {
+    "title": "Mango Paradise Smoothie",
+    "category": "Smoothies",
+    "emoji": "🥭",
+    "theme": "mango",
+    "ingredients": "Fresh mango • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
+    "description": "A tropical blend of fresh mango with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
+    "available": true
+  },
+  {
     "title": "Royal Energy Smoothie",
     "category": "Smoothies",
     "emoji": "👑",
@@ -33,24 +51,6 @@
     "theme": "green",
     "ingredients": "Kiwi • Green apple • Cucumber • Spinach • Coconut water",
     "description": "A refreshing blend of kiwi, green apple, cucumber, and spinach with coconut water for a fresh and energizing taste. Light, vibrant, and packed with natural goodness.",
-    "available": true
-  },
-  {
-    "title": "Berry Dream Smoothie",
-    "category": "Smoothies",
-    "emoji": "🍓",
-    "theme": "strawberry",
-    "ingredients": "Strawberries • Blueberries • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
-    "description": "A refreshing blend of strawberries and blueberries with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
-    "available": true
-  },
-  {
-    "title": "Mango Paradise Smoothie",
-    "category": "Smoothies",
-    "emoji": "🥭",
-    "theme": "mango",
-    "ingredients": "Fresh mango • Milk or lactose-free milk • Natural honey or zero-sugar sweetener",
-    "description": "A tropical blend of fresh mango with your choice of milk or lactose-free milk. Customize your sweetness with natural honey or zero-sugar sweetener.",
     "available": true
   },
   {
